@@ -1,0 +1,1115 @@
+//Serial monitor input 1 degree increments servo position
+#include<Servo.h>
+
+Servo servo;
+
+
+void setup() {
+
+servo.attach(11);
+
+
+servo2.write(90);
+
+Serial.begin(9600);
+
+while (!Serial);
+
+Serial.println("Type your degree from 1-180");}
+
+void loop() {
+
+if (Serial.available())
+
+{int state = Serial.parseInt();
+
+if (state == 1)
+
+{servo.write(1);
+
+Serial.println("1 degree");}
+
+if (state == 2)
+
+{servo.write(2);
+
+Serial.println("2 degrees");}
+
+if (state == 3)
+
+{servo.write(3);
+
+Serial.println("3
+
+");}
+
+if (state == 4)
+
+{servo.write(4);
+
+Serial.println("4 degrees");}
+
+if (state == 5)
+
+{servo.write(5);
+
+Serial.println("5 degrees");}
+
+if (state == 6)
+
+{servo.write(6);
+
+Serial.println("6 degrees");}
+
+if (state == 7)
+
+{servo.write(7);
+
+Serial.println("7 degrees");}
+
+if (state == 8)
+
+{servo.write(8);
+
+Serial.println("8 degrees");}
+
+if (state == 9)
+
+{servo.write(9);
+
+Serial.println("9 degrees");}
+
+if (state == 10)
+
+{servo.write(10);
+
+Serial.println("10 degrees");}
+
+if (state == 11)
+
+{servo.write(11);
+
+Serial.println("11 degrees");}
+
+if (state == 12)
+
+{servo.write(12);
+
+Serial.println("12 degrees");}
+
+if (state == 13)
+
+{servo.write(13);
+
+Serial.println("13 degrees");}
+
+if (state == 14)
+
+{servo.write(14);
+
+Serial.println("14 degrees");}
+
+if (state == 15)
+
+{servo.write(15);
+
+Serial.println("15 degrees");}
+
+if (state == 16)
+
+{servo.write(16);
+
+Serial.println("16 degrees");}
+
+if (state == 17)
+
+{servo.write(17);
+
+Serial.println("17 degrees");}
+
+if (state == 18)
+
+{servo.write(18);
+
+Serial.println("18 degrees");}
+
+if (state == 19)
+
+{servo.write(19);
+
+Serial.println("19 degrees");}
+
+if (state == 20)
+
+{servo.write(20);
+
+Serial.println("20 degrees");}
+
+if (state == 21)
+
+{servo.write(21);
+
+Serial.println("21 degrees");}
+
+if (state == 22)
+
+{servo.write(22);
+
+Serial.println("22 degrees");}
+
+if (state == 23)
+
+{servo.write(23);
+
+Serial.println("23 degrees");}
+
+if (state == 24)
+
+{servo.write(24);
+
+Serial.println("24 degrees");}
+
+if (state == 25)
+
+{servo.write(25);
+
+Serial.println("25 degrees");}
+
+if (state == 26)
+
+{servo.write(26);
+
+Serial.println("26 degrees");}
+
+if (state == 27)
+
+{servo.write(27);
+
+Serial.println("27 degrees");}
+
+if (state == 28)
+
+{servo.write(28);
+
+Serial.println("28 degrees");}
+
+if (state == 29)
+
+{servo.write(29);
+
+Serial.println("29 degrees");}
+
+if (state == 30)
+
+{servo.write(30);
+
+Serial.println("30 degrees");}
+
+if (state == 31)
+
+{servo.write(31);
+
+Serial.println("31 degrees");}
+
+if (state == 32)
+
+{servo.write(32);
+
+Serial.println("32 degrees");}
+
+if (state == 33)
+
+{servo.write(33);
+
+Serial.println("33 degrees");}
+
+if (state == 34)
+
+{servo.write(34);
+
+Serial.println("34 degrees");}
+
+if (state == 35)
+
+{servo.write(35);
+
+Serial.println("35 degrees");}
+
+if (state == 36)
+
+{servo.write(36);
+
+Serial.println("36 degrees");}
+
+if (state == 37)
+
+{servo.write(37);
+
+Serial.println("37 degrees");}
+
+if (state == 38)
+
+{servo.write(38);
+
+Serial.println("38 degrees");}
+
+if (state == 39)
+
+{servo.write(39);
+
+Serial.println("39 degrees");}
+
+if (state == 40)
+
+{servo.write(40);
+
+Serial.println("40 degrees");}
+
+if (state == 41)
+
+{servo.write(41);
+
+Serial.println("41 degrees");}
+
+if (state == 42)
+
+{servo.write(42);
+
+Serial.println("42 degrees");}
+
+if (state == 43)
+
+{servo.write(43);
+
+Serial.println("43 degrees");}
+
+if (state == 44)
+
+{servo.write(44);
+
+Serial.println("44 degrees");}
+
+if (state == 45)
+
+{servo.write(45);
+
+Serial.println("45 degrees");}
+
+if (state == 46)
+
+{servo.write(46);
+
+Serial.println("46 degrees");}
+
+if (state == 47)
+
+{servo.write(47);
+
+Serial.println("47 degrees");}
+
+if (state == 48)
+
+{servo.write(48);
+
+Serial.println("48 degrees");}
+
+if (state == 49)
+
+{servo.write(49);
+
+Serial.println("49 degrees");}
+
+if (state == 50)
+
+{servo.write(50);
+
+Serial.println("50 degrees");}
+
+if (state == 51)
+
+{servo.write(51);
+
+Serial.println("51 degrees");}
+
+if (state == 52)
+
+{servo.write(52);
+
+Serial.println("52 degrees");}
+
+if (state == 53)
+
+{servo.write(53);
+
+Serial.println("53 degrees");}
+
+if (state == 54)
+
+{servo.write(54);
+
+Serial.println("54 degrees");}
+
+if (state == 55)
+
+{servo.write(55);
+
+Serial.println("55 degrees");}
+
+if (state == 56)
+
+{servo.write(56);
+
+Serial.println("56 degrees");}
+
+if (state == 57)
+
+{servo.write(57);
+
+Serial.println("57 degrees");}
+
+if (state == 58)
+
+{servo.write(58);
+
+Serial.println("58 degrees");}
+
+if (state == 59)
+
+{servo.write(59);
+
+Serial.println("59 degrees");}
+
+if (state == 60)
+
+{servo.write(60);
+
+Serial.println("60 degrees");}
+
+if (state == 61)
+
+{servo.write(61);
+
+Serial.println("61 degrees");}
+
+if (state == 62)
+
+{servo.write(62);
+
+Serial.println("62 degrees");}
+
+if (state == 63)
+
+{servo.write(63);
+
+Serial.println("63 degrees");}
+
+if (state == 64)
+
+{servo.write(64);
+
+Serial.println("64 degrees");}
+
+if (state == 65)
+
+{servo.write(65);
+
+Serial.println("65 degrees");}
+
+if (state == 66)
+
+{servo.write(66);
+
+Serial.println("66 degrees");}
+
+if (state == 67)
+
+{servo.write(67);
+
+Serial.println("67 degrees");}
+
+if (state == 68)
+
+{servo.write(68);
+
+Serial.println("68 degrees");}
+
+if (state == 69)
+
+{servo.write(69);
+
+Serial.println("69 degrees");}
+
+if (state == 70)
+
+{servo.write(70);
+
+Serial.println("70 degrees");}
+
+if (state == 71)
+
+{servo.write(71);
+
+Serial.println("71 degrees");}
+
+if (state == 72)
+
+{servo.write(72);
+
+Serial.println("72 degrees");}
+
+if (state == 73)
+
+{servo.write(73);
+
+Serial.println("73 degrees");}
+
+if (state == 74)
+
+{servo.write(74);
+
+Serial.println("74 degrees");}
+
+if (state == 75)
+
+{servo.write(75);
+
+Serial.println("75 degrees");}
+
+if (state == 76)
+
+{servo.write(76);
+
+Serial.println("76 degrees");}
+
+if (state == 77)
+
+{servo.write(77);
+
+Serial.println("77 degrees");}
+
+if (state == 78)
+
+{servo.write(78);
+
+Serial.println("78 degrees");}
+
+if (state == 79)
+
+{servo.write(79);
+
+Serial.println("79 degrees");}
+
+if (state == 80)
+
+{servo.write(80);
+
+Serial.println("80 degrees");}
+
+if (state == 81)
+
+{servo.write(81);
+
+Serial.println("81 degrees");}
+
+if (state == 82)
+
+{servo.write(82);
+
+Serial.println("82 degrees");}
+
+if (state == 83)
+
+{servo.write(83);
+
+Serial.println("83 degrees");}
+
+if (state == 84)
+
+{servo.write(84);
+
+Serial.println("84 degrees");}
+
+if (state == 85)
+
+{servo.write(85);
+
+Serial.println("85 degrees");}
+
+if (state == 86)
+
+{servo.write(86);
+
+Serial.println("86 degrees");}
+
+if (state == 87)
+
+{servo.write(87);
+
+Serial.println("87 degrees");}
+
+if (state == 88)
+
+{servo.write(88);
+
+Serial.println("88 degrees");}
+
+if (state == 89)
+
+{servo.write(89);
+
+Serial.println("89 degrees");}
+
+if (state == 90)
+
+{servo.write(90);
+
+Serial.println("90 degrees");}
+
+if (state == 91)
+
+{servo.write(91);
+
+Serial.println("91 degrees");}
+
+if (state == 92)
+
+{servo.write(92);
+
+Serial.println("92 degrees");}
+
+if (state == 93)
+
+{servo.write(93);
+
+Serial.println("93 degrees");}
+
+if (state == 94)
+
+{servo.write(94);
+
+Serial.println("94 degrees");}
+
+if (state == 95)
+
+{servo.write(95);
+
+Serial.println("95 degrees");}
+
+if (state == 96)
+
+{servo.write(96);
+
+Serial.println("96 degrees");}
+
+if (state == 97)
+
+{servo.write(97);
+
+Serial.println("97 degrees");}
+
+if (state == 98)
+
+{servo.write(98);
+
+Serial.println("98 degrees");}
+
+if (state == 99)
+
+{servo.write(99);
+
+Serial.println("99 degrees");}
+
+if (state == 100)
+
+{servo.write(100);
+
+Serial.println("100 degrees");}
+
+if (state == 101)
+
+{servo.write(101);
+
+Serial.println("101 degrees");}
+
+if (state == 102)
+
+{servo.write(102);
+
+Serial.println("102 degrees");}
+
+if (state == 103)
+
+{servo.write(103);
+
+Serial.println("103 degrees");}
+
+if (state == 104)
+
+{servo.write(104);
+
+Serial.println("104 degrees");}
+
+if (state == 105)
+
+{servo.write(105);
+
+Serial.println("105 degrees");}
+
+if (state == 106)
+
+{servo.write(106);
+
+Serial.println("106 degrees");}
+
+if (state == 107)
+
+{servo.write(107);
+
+Serial.println("107 degrees");}
+
+if (state == 108)
+
+{servo.write(108);
+
+Serial.println("108 degrees");}
+
+if (state == 109)
+
+{servo.write(109);
+
+Serial.println("109 degrees");}
+
+if (state == 110)
+
+{servo.write(110);
+
+Serial.println("110 degrees");}
+
+if (state == 111)
+
+{servo.write(111);
+
+Serial.println("111 degrees");}
+
+if (state == 112)
+
+{servo.write(112);
+
+Serial.println("112 degrees");}
+
+if (state == 113)
+
+{servo.write(113);
+
+Serial.println("113 degrees");}
+
+if (state == 114)
+
+{servo.write(114);
+
+Serial.println("114 degrees");}
+
+if (state == 115)
+
+{servo.write(115);
+
+Serial.println("115 degrees");}
+
+if (state == 116)
+
+{servo.write(116);
+
+Serial.println("116 degrees");}
+
+if (state == 117)
+
+{servo.write(117);
+
+Serial.println("117 degrees");}
+
+if (state == 118)
+
+{servo.write(118);
+
+Serial.println("118 degrees");}
+
+if (state == 119)
+
+{servo.write(119);
+
+Serial.println("119 degrees");}
+
+if (state == 120)
+
+{servo.write(120);
+
+Serial.println("120 degrees");}
+
+if (state == 121)
+
+{servo.write(121);
+
+Serial.println("121 degrees");}
+
+if (state == 122)
+
+{servo.write(122);
+
+Serial.println("122 degrees");}
+
+if (state == 123)
+
+{servo.write(123);
+
+Serial.println("123 degrees");}
+
+if (state == 124)
+
+{servo.write(124);
+
+Serial.println("124 degrees");}
+
+if (state == 125)
+
+{servo.write(125);
+
+Serial.println("125 degrees");}
+
+if (state == 126)
+
+{servo.write(126);
+
+Serial.println("126 degrees");}
+
+if (state == 127)
+
+{servo.write(127);
+
+Serial.println("127 degrees");}
+
+if (state == 128)
+
+{servo.write(128);
+
+Serial.println("128 degrees");}
+
+if (state == 129)
+
+{servo.write(129);
+
+Serial.println("129 degrees");}
+
+if (state == 130)
+
+{servo.write(130);
+
+Serial.println("130 degrees");}
+
+if (state == 131)
+
+{servo.write(131);
+
+Serial.println("131 degrees");}
+
+if (state == 132)
+
+{servo.write(132);
+
+Serial.println("132 degrees");}
+
+if (state == 133)
+
+{servo.write(133);
+
+Serial.println("133 degrees");}
+
+if (state == 134)
+
+{servo.write(134);
+
+Serial.println("134 degrees");}
+
+if (state == 135)
+
+{servo.write(135);
+
+Serial.println("135 degrees");}
+
+if (state == 136)
+
+{servo.write(136);
+
+Serial.println("136 degrees");}
+
+if (state == 137)
+
+{servo.write(137);
+
+Serial.println("137 degrees");}
+
+if (state == 138)
+
+{servo.write(138);
+
+Serial.println("138 degrees");}
+
+if (state == 139)
+
+{servo.write(139);
+
+Serial.println("139 degrees");}
+
+if (state == 140)
+
+{servo.write(140);
+
+Serial.println("140 degrees");}
+
+if (state == 141)
+
+{servo.write(141);
+
+Serial.println("141 degrees");}
+
+if (state == 142)
+
+{servo.write(142);
+
+Serial.println("142 degrees");}
+
+if (state == 143)
+
+{servo.write(143);
+
+Serial.println("143 degrees");}
+
+if (state == 144)
+
+{servo.write(144);
+
+Serial.println("144 degrees");}
+
+if (state == 145)
+
+{servo.write(145);
+
+Serial.println("145 degrees");}
+
+if (state == 146)
+
+{servo.write(146);
+
+Serial.println("146 degrees");}
+
+if (state == 147)
+
+{servo.write(147);
+
+Serial.println("147 degrees");}
+
+if (state == 148)
+
+{servo.write(148);
+
+Serial.println("148 degrees");}
+
+if (state == 149)
+
+{servo.write(149);
+
+Serial.println("149 degrees");}
+
+if (state == 150)
+
+{servo.write(150);
+
+Serial.println("150 degrees");}
+
+if (state == 151)
+
+{servo.write(151);
+
+Serial.println("151 degrees");}
+
+if (state == 152)
+
+{servo.write(152);
+
+Serial.println("152 degrees");}
+
+if (state == 153)
+
+{servo.write(153);
+
+Serial.println("153 degrees");}
+
+if (state == 154)
+
+{servo.write(154);
+
+Serial.println("154 degrees");}
+
+if (state == 155)
+
+{servo.write(155);
+
+Serial.println("155 degrees");}
+
+if (state == 156)
+
+{servo.write(156);
+
+Serial.println("156 degrees");}
+
+if (state == 157)
+
+{servo.write(157);
+
+Serial.println("157 degrees");}
+
+if (state == 158)
+
+{servo.write(158);
+
+Serial.println("158 degrees");}
+
+if (state == 159)
+
+{servo.write(159);
+
+Serial.println("159 degrees");}
+
+if (state == 160)
+
+{servo.write(160);
+
+Serial.println("160 degrees");}
+
+if (state == 161)
+
+{servo.write(161);
+
+Serial.println("161 degrees");}
+
+if (state == 162)
+
+{servo.write(162);
+
+Serial.println("162 degrees");}
+
+if (state == 163)
+
+{servo.write(163);
+
+Serial.println("163 degrees");}
+
+if (state == 164)
+
+{servo.write(164);
+
+Serial.println("164 degrees");}
+
+if (state == 165)
+
+{servo.write(165);
+
+Serial.println("165 degrees");}
+
+if (state == 166)
+
+{servo.write(166);
+
+Serial.println("166 degrees");}
+
+if (state == 167)
+
+{servo.write(167);
+
+Serial.println("167 degrees");}
+
+if (state == 168)
+
+{servo.write(168);
+
+Serial.println("168 degrees");}
+
+if (state == 169)
+
+{servo.write(169);
+
+Serial.println("169 degrees");}
+
+if (state == 170)
+
+{servo.write(170);
+
+Serial.println("170 degrees");}
+
+if (state == 171)
+
+{servo.write(171);
+
+Serial.println("171 degrees");}
+
+if (state == 172)
+
+{servo.write(172);
+
+Serial.println("172 degrees");}
+
+if (state == 173)
+
+{servo.write(173);
+
+Serial.println("173 degrees");}
+
+if (state == 174)
+
+{servo.write(174);
+
+Serial.println("174 degrees");}
+
+if (state == 175)
+
+{servo.write(175);
+
+Serial.println("175 degrees");}
+
+if (state == 176)
+
+{servo.write(176);
+
+Serial.println("176 degrees");}
+
+if (state == 177)
+
+{servo.write(177);
+
+Serial.println("177 degrees");}
+
+if (state == 178)
+
+{servo.write(178);
+
+Serial.println("178 degrees");}
+
+if (state == 179)
+
+{servo.write(179);
+
+Serial.println("179 degrees");}
+
+if (state == 180)
+
+{servo.write(180);
+
+Serial.println("180 degrees");}
+
+if (state == 181)
+
+{servo2.write(180);
+
+
+}
+
+}
